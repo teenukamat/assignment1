@@ -1,0 +1,107 @@
+:root{--primary:#ac968f; --dark-bg:#322f30;}
+body{font-size: 16px; font-family: "Poppins", sans-serif;}
+h1, h2{font-family: "Playfair Display", serif;}
+.heading-section h2{font-size: 43px;}
+.P50{padding: 50px 0;}
+
+
+/* header section start here */
+
+header{box-shadow: #0000001a 0px 4px 6px -1px, #0000000f 0px 2px 4px -1px;}
+._navbar{ display: flex; justify-content: space-between; align-items: center; padding: 15px 0;}
+.logo img{width: 130px;}
+.right-content{ display: flex; align-items: center;}
+.cliam{ width: 55%; text-align: end;}
+.cliam button{ background: var(--primary); color: #fff; border: none; padding: 10px 20px;
+    text-transform: capitalize; border: 1px solid var(--primary); transition: 0.3s;}
+.cliam button:hover{color: var(--primary); background: #fff;}
+.add{ padding-left: 40px;}
+.add p{ margin: 0; font-size: 18px;}
+.add a{ text-decoration: none; color: #000;}
+.add p span{display: block; text-transform: uppercase; font-weight: 600; font-size: 20px;}
+
+/* header section end here */
+
+/* banner section start here */
+
+.banner-section{position: relative;}
+.title-name{background: #f3efea;}
+.title-content{padding-left: 52px;}
+.title-content h1{ line-height: 70px; font-size: 50px;}
+.title-img img{width: 100%;}
+.title-name .form-section{position: absolute; bottom: 0; right: 200px;}
+
+.form-section{ position: absolute;
+    top: 100px;
+    right: 168px;
+    width: 408px;
+    text-align: center;
+    background: #fff;box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+    padding: 20px 15px;}
+.form-section iframe{height: 370px;}
+#formWrapper{width: 273px; padding: 0px;}
+
+/* banner section end here */
+
+/* about skin care section start here */
+
+.about-skinCare{background: var(--dark-bg); }
+.skinCare-section img{width: 430px;}
+.skinCare-section{padding: 40px 0;}
+.skinCare-section p{line-height: 25px; color: #fff;}
+.skinCare-section h2{ font-size: 43px; color: var(--primary); margin-bottom: 20px;}
+.skincare-content.second{padding-right: 85px;}
+
+/* about skin care section end here */
+
+/* before after skins start here */
+
+.before-after{ background: #f3efea;}
+.before-after img{width: 100%;}
+
+/* testimonials start here */
+
+.testimonials{background: #e9e8e8;}
+.testimonials-card { background: #fff; margin-top: 30px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 7px 4px -1px, rgba(0, 0, 0, 0.06) 0px 6px 3px -1px;
+    border-radius: 12px; height: 330px; padding: 15px;}
+.testimonials-card h4{ font-weight: 400;}
+.testimonials-card p{font-size: 14px; margin: 6px 0;}
+
+
+
+/* ready to experience start here*/
+
+.experience{ background: linear-gradient(#00000054, #00000082), url(../images/AdobeStock_556469654.jpeg) no-repeat;
+    text-align: center;    background-size: cover;    height: 480px;    display: flex;    flex-direction: column;
+    justify-content: center;    align-items: center;    color: #fff;}
+.experience .cliam button{ padding: 12px 120px; margin-top: 20px;}
+
+/* privacy section start here */
+
+.privacy-policy{background: var(--dark-bg); color: #fff; padding: 20px 0;}
+.privacy-policy p{margin: 0; font-size: 15px;}
+.copyRight-section{display: flex;justify-content: space-between;align-items: center;}
+
+
+/* media query start here */
+
+@media screen and (max-width: 767px) {
+    .P30{padding: 30px 0;}
+    ._navbar{flex-wrap: wrap-reverse;}
+    .logo img { width: 90px; }
+    .add{padding: 0 0 10px 0;}
+    .add p{font-size: 14px;}
+    .skinCare-section img{width: 100%;}
+    .form-section { position: relative; left: 0; top: 0; width: auto; }
+    .title-content{padding: 0; text-align: center;}
+    .title-content h1 { line-height: 38px; font-size: 30px; }
+    .skinCare-section { padding: 15px 0; }
+    .skinCare-section h2 { font-size: 32px;}
+    .heading-section h2 { font-size: 36px; }
+    .skinCare-section p{text-align: justify;}
+    .skincare-content.second{padding: 0;}
+    .testimonials-card{height: auto;}
+    .experience .cliam{ width: auto; }
+    .privacy-policy p{font-size: 14px;}
+  }
